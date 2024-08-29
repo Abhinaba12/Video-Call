@@ -1,0 +1,93 @@
+#controls {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 1em;
+}
+
+.control-container {
+  background-color: rgb(179, 102, 249, .9);
+  padding: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.OFF {
+  background-color: rgb(255, 80, 80, 1);
+  padding: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.OFF img {
+  height: 30px;
+  width: 30px;
+}
+
+.startCall {
+  background-color: rgb(179, 102, 249, .9);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+  color: white;
+  border-radius: 10%;
+}
+
+.control-container img {
+  height: 30px;
+  width: 30px;
+}
+
+#leave-btn {
+  background-color: rgb(255, 80, 80, 1);
+}
+
+.video-call-container {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.local-video {
+  width: 20%;
+  height: 20%;
+  max-width: 20%;
+  max-height: 20%;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 2;
+  border-radius: 10px;
+  border: 2px solid white;
+  object-fit: cover;
+}
+
+.noRemote {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2em;
+  font-weight: bold;
+  color: black;
+}
+
+.remote-video {
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

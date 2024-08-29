@@ -1,0 +1,38 @@
+.home-page-content {
+  margin-top: 10px;
+  margin-left: 150px;
+}
+
+h1 {
+  color: #182527;
+  font-size: 3.5rem;
+  margin-bottom: auto;
+}
+
+p {
+  margin-top: 15px;
+  color: #182527;
+  font-family: "NeueMachina-Regular.otf";
+  font-size: 1.5rem;
+}
+
+.joinBtn {
+  font-size: 1.3rem;
+  padding: 7px 10px;
+  cursor: pointer;
+  color: white;
+  background-color: #182527;
+}
+
+.joinBtn:hover {
+  border-color: #da3736;
+}
+
+.roomID {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 7px 10px;
+  cursor: text;
+  color: #182527;
+  font-size: 1.3rem;
+}
