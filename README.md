@@ -45,3 +45,5 @@ convenient toggling of microphone and video settings.
      * After entering the room, any user can initiate a call using the "Start Call" button, and the call will be connected.
      * To end the call, any user can terminate it, and the call will be disconnected, redirecting both users to the home page.
 
+* Homepage
+  ![Screenshot 2024-08-30 at 8 49 31 PM](https://github.com/user-attachments/assets/0c08be27-3137-4fb3-8134-9fa62330a242)
