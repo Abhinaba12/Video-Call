@@ -32,7 +32,7 @@ const Login = () => {
         });
         return;
       }
-      const res = await axios.post("https://video-call-pf4x.onrender.com/api/auth/login", credentials);
+      const res = await axios.post("api/auth/login", credentials);
       console.log(res.data.username);
       dispatch({ type: "LOGIN_SUCCESS", payload: res.data.username });
       toast.success("Login Successful!, Redirecting to Home Page!", {
