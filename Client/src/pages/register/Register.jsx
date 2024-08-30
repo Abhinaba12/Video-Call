@@ -30,14 +30,14 @@ const Register = () => {
         return;
       }
 
-      const user = await axios.get("api/auth/user?username=" + credentials.username);
+      const user = await axios.get("https://video-call-pf4x.onrender.com/api/auth/user?username=" + credentials.username);
       if (user.data !== "Username is available") {
         toast.error(user.data, {
           position: toast.POSITION.TOP_RIGHT,
         });
       }
       else {
-        const res = await axios.post("api/auth/register", credentials);
+        const res = await axios.post("https://video-call-pf4x.onrender.com/api/auth/register", credentials);
         if (res) {
           toast.success("Registration Successful! Please Login to continue!", {
             position: toast.POSITION.TOP_RIGHT,
